@@ -4,30 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="" target="_blank">Studio</a></li>
-          <li><a href="" target="_blank">Portfolio</a></li>
-          <li><a href="" target="_blank">Contacts</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="" target="_blank">Studio</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="" target="_blank">Portfolio</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="" target="_blank">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-item">
             <a
+              class="contacts-mail-link"
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="contacts-item">
             <a
+              class="contacts-tel-link"
               href="tel:+110001111111"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -38,8 +61,8 @@
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button">Order Service</button>
       </section>
       <section>
