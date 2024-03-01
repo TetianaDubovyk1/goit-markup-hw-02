@@ -8,13 +8,11 @@ ul, ol{list-style: none;}
 
 button {cursor: pointer;}
 
+address{font-style: normal;}
+
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
 
     white-space: nowrap;
     clip-path: inset(100%);
@@ -89,7 +87,6 @@ text-decoration: underline;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;}
 
 .hero-order-btn:hover {
@@ -134,8 +131,7 @@ text-decoration: underline;}
 
 .team-list{}
 
-.team-item{box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;}
+.team-item{background: #fff;}
 
 .team-img {}
 
